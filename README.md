@@ -1,3 +1,11 @@
+<!-- BADGES:START -->
+[![CI](https://github.com/POps-Rox/backstage-workshop/actions/workflows/ci.yml/badge.svg)](https://github.com/POps-Rox/backstage-workshop/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/POps-Rox/backstage-workshop/pulls)
+[![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/POps-Rox/backstage-workshop/graphs/commit-activity)
+[![Backstage](https://img.shields.io/badge/Backstage-enabled-36BAA2.svg?logo=backstage)](https://backstage.io)
+<!-- BADGES:END -->
+
 # Platform Engineering with Backstage - Workshop
 
 This repository is meant to be used with the [MOAW (Mother of All Workshops) platform](https://moaw.dev). The live version of this workshop can be found [here](https://moaw.dev/workshop/gh:microsoft/pe-backstage-azure-workshop/main/docs/).
