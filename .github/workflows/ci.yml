@@ -3,8 +3,12 @@ name: "🎭 Backstage CI"
 on:
   push:
     branches: [main]
+    paths:
+      - 'backstage/**'
   pull_request:
     branches: [main]
+    paths:
+      - 'backstage/**'
 
 permissions:
   contents: read
@@ -13,18 +17,24 @@ jobs:
   build-and-test:
     name: "🏗️ Build & Test"
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backstage
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Enable Corepack
+        run: corepack enable
+        working-directory: .
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "22"
-          cache: "yarn"
 
       - name: Install Dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install --immutable
 
       - name: TypeScript Check
         run: yarn tsc
