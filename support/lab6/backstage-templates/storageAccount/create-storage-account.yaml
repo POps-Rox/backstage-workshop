@@ -79,7 +79,7 @@ spec:
       action: github:actions:dispatch
       input:
         workflowId:  instance.yml # ID of GitHub action WorkFlow
-        repoUrl: 'github.com?repo=pe-backstage-azure-workshop-build2&owner=jrspinella'
+        repoUrl: 'github.com?repo=backstage-workshop-build&owner=POps-Rox'
         branchOrTagName: 'master'
         workflowInputs:
           StorageAccountName: ${{ parameters.StorageAccountName }}

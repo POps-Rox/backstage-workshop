@@ -7,7 +7,7 @@ metadata:
     - title: Community Backstage App
       url: https://backstage.constoso.com/
   annotations:
-    github.com/project-slug: pe-backstage-azure-workshop/backstage-app
+    github.com/project-slug: POps-Rox/backstage-workshop
     argocd/app-name: 'community-idp'
     backstage.io/kubernetes-id: 'community-idp'
     backstage.io/kubernetes-namespace: backstage

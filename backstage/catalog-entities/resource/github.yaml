@@ -5,7 +5,7 @@ metadata:
   title: GitHub Backstage App repository
   description: Deployment manifests and code GitHub.
   links:
-    - url: https://github.com/pe-backstage-azure-workshop/backstage
+    - url: https://github.com/POps-Rox/backstage-workshop
       title: GitHub Repository
       icon: web
 spec:
