@@ -8,7 +8,7 @@
 
 # Platform Engineering with Backstage - Workshop
 
-This repository is meant to be used with the [MOAW (Mother of All Workshops) platform](https://moaw.dev). The live version of this workshop can be found [here](https://moaw.dev/workshop/gh:microsoft/pe-backstage-azure-workshop/main/docs/).
+This repository is meant to be used with the [MOAW (Mother of All Workshops) platform](https://moaw.dev). The live version of this workshop can be found [here](https://moaw.dev/workshop/gh:microsoft/backstage-workshop/main/docs/).
 
 ## Introduction
 

@@ -105,7 +105,7 @@ catalog:
     - allow: [Component, System, Group, User, Resource, Location, Template, API]
   locations:
     - type: file
-      target: /Users/johnspinella/repos/pe-backstage-azure-workshop/backstage/catalog-entities/locations.yaml #https://github.com/pe-backstage-azure-workshop/backstage/blob/main/catalog-entities/locations.yaml
+      target: /Users/johnspinella/repos/backstage-workshop/backstage/catalog-entities/locations.yaml #https://github.com/POps-Rox/backstage-workshop/blob/main/catalog-entities/locations.yaml
   useUrlReadersSearch: true
 
 kubernetes:
