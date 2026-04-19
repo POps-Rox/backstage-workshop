@@ -400,8 +400,8 @@ export "GITHUB_TOKEN=<your-github-pat>"
 
 [az-portal]: https://portal.azure.com
 [github-account]: https://github.com/join
-[repo-fork]: https://github.com/azurenoops/pe-backstage-azure-workshop/fork
-[repo-clone]: https://github.com/azurenoops/pe-backstage-azure-workshop.git
+[repo-fork]: https://github.com/POps-Rox/backstage-workshop/fork
+[repo-clone]: https://github.com/POps-Rox/backstage-workshop.git
 [vs-code]: https://code.visualstudio.com/
 [GitHub]: http://github.com
 [docker-desktop]: https://www.docker.com/products/docker-desktop/
