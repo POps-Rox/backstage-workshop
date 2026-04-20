@@ -193,8 +193,8 @@ Now, open the resource group deployed previously (it's name should start with *"
 
 [az-portal]: https://portal.azure.com
 [github-account]: https://github.com/join
-[repo-fork]: https://github.com/azurenoops/pe-backstage-azure-workshop/fork
-[repo-clone]: https://github.com/azurenoops/pe-backstage-azure-workshop.git
+[repo-fork]: https://github.com/POps-Rox/backstage-workshop/fork
+[repo-clone]: https://github.com/POps-Rox/backstage-workshop.git
 [vs-code]: https://code.visualstudio.com/
 [GitHub]: http://github.com
 
@@ -1128,7 +1128,7 @@ terraform validate
 <summary>📚 Toggle solution</summary>
 
 ```shell
-terraform plan -var gitops_addons_org=https://github.com/azurenoops -var infrastructure_provider=crossplane 
+terraform plan -var gitops_addons_org=https://github.com/POps-Rox -var infrastructure_provider=crossplane 
 ```
 
 </details>
@@ -1176,7 +1176,7 @@ To access the AKS cluster, you need to set the KUBECONFIG environment variable t
 <summary>📚 Toggle solution</summary>
 
 ```shell
-export KUBECONFIG=<your_path_to_this_repo>/pe-backstage-azure-workshop/terraform//aks/kubeconfig
+export KUBECONFIG=<your_path_to_this_repo>/backstage-workshop/terraform//aks/kubeconfig
 echo $KUBECONFIG
 ```
 
