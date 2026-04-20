@@ -52,7 +52,7 @@ catalog:
     - allow: [Component, System, Group, User, Resource, Location, Template, API]
   locations:
     - type: url
-      target: /Users/johnspinella/repos/pe-backstage-azure-workshop/backstage/catalog-entities/locations.yaml # https://github.com/pe-backstage-azure-workshop/backstage/blob/main/catalog-entities/locations.yaml
+      target: /Users/johnspinella/repos/backstage-workshop/backstage/catalog-entities/locations.yaml # https://github.com/POps-Rox/backstage-workshop/blob/main/catalog-entities/locations.yaml
 
     ## Uncomment these lines to add more example data
     # - type: url
